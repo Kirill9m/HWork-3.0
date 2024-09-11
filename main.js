@@ -1,2 +1,3 @@
-document.getElementById("testButton").innerHTML =
-"Hello world:";
+window.onload = function() {
+    document.getElementById("testButton").innerHTML = "Hello World";
+}
