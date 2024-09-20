@@ -1,5 +1,10 @@
-    document.getElementById("testButton").innerHTML = "Hello World";
-    
+
+const myButton = document.querySelector("#myButton");
+const myText = document.querySelector("#myText");
+
+
 function changeText() {
-    document.getElementById('testButton').innerHTML = 'Goodbye World';
+    myText.innerHTML = "Goodbye world!"
 }
+
+myButton.addEventListener("click", changeText, false);
